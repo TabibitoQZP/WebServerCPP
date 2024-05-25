@@ -10,7 +10,11 @@
 #include <netinet/in.h>
 #include <unistd.h>
 #include <cstring>
+#include <arpa/inet.h>
+#include <netdb.h>
 
 #endif
 
 #include "httpServer.h"
+#include "TinyServer.h"
+#include "TinyClient.h"

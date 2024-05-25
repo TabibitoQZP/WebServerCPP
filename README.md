@@ -4,6 +4,11 @@ CPP-based Web Server.
 
 # HTTP server
 
-Based on [Building an HTTP Server From Scratch in C++](https://osasazamegbe.medium.com/showing-building-an-http-server-from-scratch-in-c-2da7c0db6cb7).
+It basically a TCP server, Just have special string format. The HTTP server is built in `include/TinyServer.h` .
 
-HTTP stands for Hypertext Transfer Protocol.
+The `HTTPServer` class contains more complex check.
+
+# Client server
+
+Simple version is saved in `include/TinyClient.h` .
+
